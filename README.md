@@ -5,6 +5,11 @@
 </p>
 
 <p align="center">
+  Forked by <a href='https://dockbite.nl/'>Dockbite</a>. At the time of forking (23-02-2021) 
+  <a href='https://github.com/nest-modules/mailer/pull/238/files'>this</a> was not released to NPM yet. Therefore a 
+  fork was made, see this <a href='https://github.com/nest-modules/mailer/issues/484'>issue</a>. Once a new NPM is made
+  this fork becomes obsolete.
+  
   A mailer module for Nest framework (node.js) using <a href="https://nodemailer.com/">Nodemailer</a> library
 </p>
 
@@ -18,9 +23,9 @@
 ### Installation
 
 ```sh
-npm install --save @nestjs-modules/mailer nodemailer
+npm install --save @dockbite/mailer nodemailer
 #or
-yarn add @nestjs-modules/mailer nodemailer
+yarn add @dockbite/mailer nodemailer
 ```
 
 **Hint:** handlebars and pug is an optional dependency, if you want to use the template, you must install it.
